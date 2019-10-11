@@ -191,7 +191,7 @@ div#nav-tab {
 .footer {
   background-image: url(../images/FOOTTER.png);
   height: 283px;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
