@@ -385,3 +385,8 @@ button.btn.btn-outline-primary:hover {
 .btn {
   font-size: 11px !important;
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
