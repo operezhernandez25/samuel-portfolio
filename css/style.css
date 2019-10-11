@@ -370,3 +370,18 @@ button-container {
 .embed-responsive.embed-responsive-16by9 {
   width: 67%;
 }
+
+button.btn.btn-outline-primary {
+  border-color: #041533;
+}
+
+button.btn.btn-outline-primary:hover {
+  border-color: #041533;
+  background-color: #041533 !important;
+  color: white !important;
+}
+
+
+.btn {
+  font-size: 11px !important;
+}
