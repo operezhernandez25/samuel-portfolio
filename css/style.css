@@ -226,7 +226,7 @@ img{
 }
 
 div#modalPeriscope>div,div#modalLaBrochete>div ,div#modalQueChivo>div,div#modalLaBrocheteMarca>div,div#modalDeMaiz>div,div#modalMealTime>div,
-div#modalKygo>div,div#modalMeal>div {
+div#modalKygo>div,div#modalMeal>div,div#modalPan>div,.modal>div {
     max-width: 84% !important;
     margin-right: auto;
     margin-left: auto;
@@ -364,4 +364,9 @@ button-container {
 }
 .general a:last-of-type {
   justify-content: flex-end;
+}
+
+
+.embed-responsive.embed-responsive-16by9 {
+  width: 67%;
 }
