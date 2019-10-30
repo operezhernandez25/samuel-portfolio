@@ -41,34 +41,7 @@
                   <ul class="navbar-nav mr-auto">
                     
                   </ul>
-                  <nav class="nav-menu">
-                        <input type="checkbox" class="nav__cb" id="menu-cb"/>
-                        <div class="nav__content">
-                          <ul class="nav__items">
-                            <li class="nav__item">
-                              <span class="nav__item-text">
-                                Home
-                              </span>
-                            </li>
-                            <li class="nav__item">
-                              <span class="nav__item-text">
-                                Works
-                              </span>
-                            </li>
-                            <li class="nav__item">
-                              <span class="nav__item-text">
-                                About
-                              </span>
-                            </li>
-                            <li class="nav__item">
-                              <span class="nav__item-text">
-                                Contact
-                              </span>
-                            </li>
-                          </ul>
-                        </div>
-                        <label class="nav__btn" for="menu-cb"></label>
-                      </nav>
+                  
                 </div>
         </nav>
         
@@ -76,39 +49,78 @@
             <div class="row">
               <div class="col-md-12" class="carouselExampleSlidesOnly" style="padding:0px">
               
-                  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                      <div class="carousel-inner">
-                        
-                        <div class="carousel-item carousel-first active">
-                           
-                            <div class="carousel-caption d-none d-md-block text-left" style="
-                            top: 50%;
-                        ">
-                              <p style="
-                              color: #eb3441;
-                              font-size: 13px;margin-bottom: 0px;
-                          ">BUILD THE FUTURE, BUILD TOGETHER</p>
-                                <p style="
-                                margin-bottom: 0px;
-                            ">I blend <span style="font-weight: 900;">Design & Funtionality</span></p>
-                                <p style="
-                                margin-bottom: 0px;
-                            ">to create something awesome,<br>
-                                    check my work below.
-                                    </p>
+                            <!--Carousel Wrapper-->
+                              <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+                                <!--Indicators
+                                <ol class="carousel-indicators">
+                                  <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
+                                  <li data-target="#video-carousel-example2" data-slide-to="1"></li>
+                                  <li data-target="#video-carousel-example2" data-slide-to="2"></li>
+                                </ol>-->
+                                <!--/.Indicators-->
+                                <!--Slides-->
+                                <div class="carousel-inner" role="listbox">
+                                  <!-- First slide -->
+                                  <div class="carousel-item active">
+                                    <!--Mask color-->
+                                    <div class="view">
+                                      <!--Video source-->
+                                      <video class="video-fluid" autoplay loop muted>
+                                        <source src="./videos/carousel/carousel-video-ultimate.mp4" type="video/mp4" />
+                                      </video>
+                                      <div class="mask rgba-indigo-light"></div>
+                                    </div>
+
+                                    <!--Caption-->
+                                    <div class="carousel-caption">
+                                      <div class="animated fadeInDown">
+                                      <!--  <h3 class="h3-responsive">Light mask</h3>-->
+                                      </div>
+                                    </div>
+                                    <!--Caption-->
+                                  </div>
+                                  <!-- /.First slide -->
+                                  <!-- First slide -->
+                                  <div class="carousel-item">
+                                    <!--Mask color-->
+                                    <div class="view text-carousel-container">
+                                      <!--Video source-->
+                                      <img class="carousel-fondo" src="./images/FONDO.png" alt="">
+                                      <div class="container-text">
+                                        <h3>
+                                          Research,<br>
+                                          Usability,<br>
+                                          Funtionallity.
+
+                                        </h3>
+                                      </div>
+                                      <div class="mask rgba-indigo-light"></div>
+                                    </div>
+                                        
+                                    <!--Caption-->
+                                    <div class="carousel-caption">
+                                      <div class="animated fadeInDown">
+                                      <!--  <h3 class="h3-responsive">Light mask</h3>-->
+                                      </div>
+                                    </div>
+                                    <!--Caption-->
+                                  </div>
+                                  <!-- /.First slide -->
+                                  
+                                </div>
+                                <!--/.Slides-->
+                                <!--Controls
+                                <a class="carousel-control-prev" href="#video-carousel-example2" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#video-carousel-example2" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>-->
+                                <!--/.Controls-->
                               </div>
-                        </div>
-                        <div class="carousel-caption text-right" style="z-index:3;">
-                            <img src="./images/icons/Landing page-05.png" alt="">
-                            <img src="./images/icons/Landing page-04.png" alt="">
-                            <img src="./images/icons/Landing page-06.png" alt="">
-                          </div>   
-                        <div class="carousel-item carousel-second">
-                            
-                        </div>
-                        
-                      </div>
-                    </div>
+                              <!--Carousel Wrapper-->
               </div>
             </div>
             
@@ -117,53 +129,65 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-            <h2 style="padding-top: 60px;text-align: center;padding-bottom: 21px;color:#041533">Work</h2>
-            <nav>
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                  <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">All</a>
-                  <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">UI/UX Design</a>
-                  <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Multimedia</a>
-                </div>
-              </nav>
-            
-              <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                  
-                    <div class="container">
-                        <div class="gallery">
-                          
-                          <img src="./images/portadas/1.png" alt="" data-toggle="modal" data-target="#modalKygo" width="100%" height="auto" class="gallery-img" />		
-                          <img src="./images/portadas/4.png" alt="" data-toggle="modal" data-target="#modalPan" width="100%" height="auto" class="gallery-img" />		
-                          <img src="./images/portadas/2.png" alt="" data-toggle="modal" data-target="#modalLaBrochete"  width="100%" height="auto" class="gallery-img" />		
-                          <img src="./images/portadas/5.png" alt="" data-toggle="modal" data-target="#modalMeal"  width="100%" height="auto" class="gallery-img" />		
-                          <img src="./images/portadas/3.png" alt="" data-toggle="modal" data-target="#modalTrafic" width="100%" height="auto" class="gallery-img" />		
-                          <img src="./images/portadas/6.png" alt="" data-toggle="modal" data-target="#modalSan" width="100%" height="auto" class="gallery-img" />		
-                          </div> 
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row">
+                        <div class="col-md-4">
+                          <video class="video-fluid" autoplay loop muted>
+                            <source src="./videos/KYGO_2.mp4" type="video/mp4" />
+                          </video>
+                        </div>
+                        <div class="col-md-8">
+                          Aqui va ir el texto
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                          <video class="video-fluid" autoplay loop muted>
+                            <source src="./videos/ARBO.mp4" type="video/mp4" />
+                          </video>
+                        </div>
+                        <div class="col-md-4">
+                          <video class="video-fluid" autoplay loop muted>
+                            <source src="./videos/KYGO_2.mp4" type="video/mp4" />
+                          </video>
+                        </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-4">
+                        <video class="video-fluid" autoplay loop muted>
+                          <source src="./videos/PAN BLOCK_3.mp4" type="video/mp4" />
+                        </video>
                       </div>
-                </div>
-                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                  
-                    <div class="container">
-                        <div class="gallery two-columns">
-                            <img src="./images/portadas/1.png" alt="" data-toggle="modal" data-target="#modalKygo" width="100%" height="auto" class="gallery-img" />		
-                            <img src="./images/portadas/5.png" alt="" data-toggle="modal" data-target="#modalMeal"  width="100%" height="auto" class="gallery-img" />	
-                            <img src="./images/portadas/2.png" alt="" data-toggle="modal" data-target="#modalLaBrochete"  width="100%" height="auto" class="gallery-img" />
-                            <img src="./images/portadas/3.png" alt="" data-toggle="modal" data-target="#modalTrafic" width="100%" height="auto" class="gallery-img" />	
-                           </div> 
+                      <div class="col-md-4">
+                        <video class="video-fluid" autoplay loop muted>
+                          <source src="./videos/KYGO_2.mp4" type="video/mp4" />
+                        </video>
                       </div>
-                </div>
-                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                  
-                    <div class="container">
-                        <div class="gallery two-columns">
-                            <img src="./images/portadas/4.png" alt="" data-toggle="modal" data-target="#modalPan" width="100%" height="auto" class="gallery-img" />	
-                            <img src="./images/portadas/6.png" alt="" data-toggle="modal" data-target="#modalSan" width="100%" height="auto" class="gallery-img" />		
-                            </div> 
+                      <div class="col-md-4">
+                          <video class="video-fluid" autoplay loop muted>
+                              <source src="./videos/PAN BLOCK_3.mp4" type="video/mp4" />
+                          </video>
                       </div>
+                    </div>
                 </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
               </div>
         </div>
       </div>
+      
     </div>
     <div class="container">
       <div class="row">
@@ -228,7 +252,7 @@
     <div class="container-fluid footer">
       <div class="row">
         <div class="col-md-12">
-          <img src="" alt="">
+
         </div>
       </div>
     </div>

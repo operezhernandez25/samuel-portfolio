@@ -3,7 +3,29 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   padding-left: 53px;
 }
 
+video,.carousel-fondo{
+  width: 100%    !important;
+  height: auto   !important;
+}
 
+.carousel-fondo{
+  height: 100vh !important;
+}
+.container-text{
+  position: absolute;
+  left: 10%;
+}
+
+.container-text>h3{
+  font-size: 10vh;
+}
+
+.view.text-carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  
+}
 
 
 /* MAIN VARIABLES FOR CUSTOMIZATION */
@@ -390,3 +412,19 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
+
+
+
+.container-text>h3 {
+  background-image: linear-gradient(transparent calc(65% - 5px), #030ead 5px);
+  background-size: 0;
+  background-repeat: no-repeat;
+  display: inline;
+  transition: 0.5s ease;
+  color: white;
+}
+.container-text:hover>h3 {
+  background-size: 100%;
+}
+
+
