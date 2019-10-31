@@ -126,98 +126,166 @@
             
                 
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item">
-                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-                </li>
-              </ul>
-              <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    <div class="row">
-                        <div class="col-md-4">
-                          <video class="video-fluid" autoplay loop muted>
-                            <source src="./videos/PAN.mp4" type="video/mp4" />
-                          </video>
-                        </div>
-                        <div class="col-md-8">
-                          Aqui va ir el texto
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-8">
-                          <video class="video-fluid" autoplay loop muted>
-                            <source src="./videos/ARBO.mp4" type="video/mp4" />
-                          </video>
-                        </div>
-                        <div class="col-md-4">
-                          <video class="video-fluid" autoplay loop muted>
-                            <source src="./videos/KYGO_2.mp4" type="video/mp4" />
-                          </video>
-                        </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-4">
-                        <video class="video-fluid" autoplay loop muted>
-                          <source src="./videos/PAN BLOCK_3.mp4" type="video/mp4" />
-                        </video>
-                      </div>
-                      <div class="col-md-4">
-                        <video class="video-fluid" autoplay loop muted>
-                          <source src="./videos/KYGO_2.mp4" type="video/mp4" />
-                        </video>
-                      </div>
-                      <div class="col-md-4">
-                          <video class="video-fluid" autoplay loop muted>
-                              <source src="./videos/PAN BLOCK_3.mp4" type="video/mp4" />
-                          </video>
-                      </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+    <div class="proyect-container">
+        <div class="container ">
+            <div class="row">
+              <div class="col-md-12">
+                <h2 class="white-color">
+                  Proyectos
+                </h2>
               </div>
-        </div>
-      </div>
-      
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4 text-center">
-        <!-- Small modal -->
-        <button style="margin-bottom: 100px;border-radius: 0px;border-style: none;background-color: #041533;" type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Contactame</button>
-
-        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-          <div class="modal-dialog bd-example-modal-lg  modal-dialog-centered">
-            <div class="modal-content" style="padding-top: 60px;padding-bottom: 60px;display: flex;align-items: center;justify-content: center;">
-                <div class="playground">
-
-                    <!-- All you need to play with -->
-                    <form class="button-container" action="" method="POST">
-                      <div class="button-group is-inactive">
-                        <input type="text" id="nombre-form" class="input input--first" placeholder="Nombre">
-                        <input type="text" id="email-correo-form" class="input input--second" placeholder="E-mail / Telefono" required>
-                        <button type="submit" class="button" ><span>Contactame</span></button>
-                       
-                      </div>
-                    </form>
-                    
+              <div class="col-md-6">
+                  <ul class="nav nav-tabs" id="myTab" role="tablist">
+                      <li  class="nav-item">
+                        <a class="nav-link active white-color" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Todo</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link white-color" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Diseño UI-UX</a>
+                      </li>
+                      <li  class="nav-item">
+                        <a class="nav-link white-color" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Multimedia</a>
+                      </li>
+                    </ul>
+              </div>
+              <div class="col-md-12">
                   
-                  </div>
+                    <div class="tab-content" id="myTabContent">
+                      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                          <div class="row">
+                              <div class="col-md-4">
+                                <video class="video-fluid" autoplay loop muted>
+                                  <source src="./videos/KYGO.mp4" type="video/mp4" />
+                                </video>
+                              </div>
+                              <div class="col-md-8">
+                                <div class="jumbotron jumbotron-fluid jumbotron-samuel-presentacion">
+                                  <div class="container">
+                                    <h1 class="display-5 white-color">Hey, soy Samuel Quintanilla</h1>
+                                    <p class="lead white-color">Diseñador UI-UX salvadoreño enfocado en la usabilidad efectiva e intuitiva del usuario con el producto, sin dejar de lado la estética visual. </p>
+                                    <div class="container-button-jumbotron">
+                                      <button class="btn btn-primary" style="background-color:#eb3441 !important; border-style:none; border-radius: 0px;padding: 10px 30px 10px 30px;">Leer más</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-8">
+                                <video class="video-fluid" autoplay loop muted>
+                                  <source src="./videos/ARBO.mp4" type="video/mp4" />
+                                </video>
+                              </div>
+                              <div class="col-md-4">
+                                <img src="./images/portadas/BROCHETTE.png" alt="">
+                              </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-4">
+                              <img src="./images/portadas/MEAL.png" alt="">
+                            </div>
+                            <div class="col-md-4">
+                              <video class="video-fluid" autoplay loop muted>
+                                <source src="./videos/PANBLOCK.mp4" type="video/mp4" />
+                              </video>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./images/portadas/SANDWICH.png" alt="">
+                            </div>
+                          </div>
+                      </div>
+                      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="row">
+                          <div class="col-md-8">
+                              <div class="row">
+                                <div class="col-md-12">
+                                    <video class="video-fluid" autoplay loop muted>
+                                        <source src="./videos/ARBO.mp4" type="video/mp4" />
+                                    </video>
+                                </div>
+                                <div class="col-md-6">
+                                  <img src="./images/portadas/MEAL.png" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                    <video class="video-fluid" autoplay loop muted>
+                                        <source src="./videos/KYGO.mp4" type="video/mp4" />
+                                      </video>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="row">
+                              <div class="col-md-12">
+                                  <img src="./images/portadas/BROCHETTE - GRANDE.png" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="row">
+                          <div class="col-md-4">
+                              <video class="video-fluid" autoplay loop muted>
+                                  <source src="./videos/PANBLOCK.mp4" type="video/mp4" />
+                                </video>
+                          </div>
+                          <div class="col-md-4">
+                            <img src="./images/portadas/SANDWICH.png" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
             </div>
+            
           </div>
-        </div>
-      </div>
-        <div class="col-md-4"></div>
+    </div>
+    <div class="container about-samuel">
+      <div class="row">
+          <div class="col-md-4">
+              <img src="./images/FONDO.png" height="566" width="504" alt="">
+            </div>
+            <div class="col-md-8 about-samuel-texto">
+              <h1>ACERCA DE MÍ</h1>
+              <p>
+                  Soy un Diseñador UI-UX creyente que el diseño no solo es una interfaz atractiva, en este proceso debe existir una investigación con el objetivo de lograr una conexión entre el usuario y el producto para que la usabilidad sea de forma intuitiva. 
+              </p>
+              <p>
+                  Mi metodología de diseño se centra en el mejoramiento continuo basado en la funcionalidad de un producto sustentado bajo una investigación y testeo del mismo.
+              </p>
+              <p>
+                  En mi tiempo libre disfruto escuchar podcasts y constantemente estoy aprendiendo más sobre cómo el diseño interviene en la vida cotidiana de las personas.
+              </p>
+              <div class="row">
+                <div class="col-md-12 acerca-samuel-conexiones">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p class="titulo-conexiones">CONECTAR EN</p>
+                      <p>Linkedln</p>
+                    </div>
+                    <div class="col-md-6">
+                      <p class="titulo-conexiones">DESCARGAR</p>
+                      <p>Resumen Ejecutivo</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="titulo-conexiones">CONECTAR EN</p>
+                        <p>Linkedln</p>
+                      </div>
+                      <div class="col-md-6">
+                        <p class="titulo-conexiones">EMAIL</p>
+                        <p>hi@samuelquintanilla.com </p>
+                      </div>
+                      <div class="col-md-6">
+                          <p class="titulo-conexiones">VIEW MY</p>
+                          <p>Behance</p>
+                        </div>
+                        <div class="col-md-6">
+                          <p class="titulo-conexiones">VIEW MY</p>
+                          <p>Dribbble</p>
+                        </div>
+                  </div>
+                </div>
+              </div>
+            </div>
       </div>
     </div>
     <div class="container-fluid" style="padding-left: 0px;

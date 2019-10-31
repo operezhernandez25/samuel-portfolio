@@ -428,3 +428,67 @@ html, body {
 }
 
 
+.container-button-jumbotron {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 49px;
+}
+
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.jumbotron{
+  background-color: transparent;
+}
+
+#myTab{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: space-between;
+}
+
+.nav-tabs .nav-link{
+  border-style: none;
+}
+
+
+.proyect-container {
+  background-image: url(../images/FONDO.png);
+  top: -7px;
+  position: relative;
+  padding-bottom: 160px;
+}
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  background-color: transparent;
+}
+
+.white-color{
+  color: white;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  color: #eb3441 !important;
+}
+
+a:hover {
+  color: #eb3441;
+  text-decoration: underline;
+}
+
+.about-samuel{
+  margin-top: 200px;
+}
+
+
+.about-samuel-texto{
+  padding-top: 40px;
+}
+
+.acerca-samuel-conexiones{
+  padding-top: 60px;
+}
