@@ -562,7 +562,7 @@
 
   var SWIPE_THRESHOLD = 40;
   var Default = {
-    interval: 10000,
+    interval: 3000,
     keyboard: true,
     slide: false,
     pause: 'hover',
